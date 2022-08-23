@@ -1,0 +1,48 @@
+.cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border:solid 1px;
+  background-color: yellowgreen;
+  text-align: center;
+  max-height: fit-content;
+  position: relative;
+  width: 300px;
+  margin: 30px;
+  border-radius: 1%;
+  box-shadow: 0px 20px 60px -6px black;
+}
+
+.card-title {
+  background-color:wheat;
+}
+.card img {
+  margin: auto;
+  max-width: 300px;
+  height: 175px;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.card-desc {
+  margin-top: 1em;
+  background-color: blanchedalmond;
+  height: 80px;
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  opacity: 1;
+  padding: 10px;
+}
+.detailbtn {
+  border:solid 1px;
+  border-radius: 15%;
+  background-color:wheat;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
